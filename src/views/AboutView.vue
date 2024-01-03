@@ -1,5 +1,9 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <Container> About </Container>
   </div>
 </template>
+
+<script setup lang="ts">
+import Container from "@/components/partials/Container.vue";
+</script>
