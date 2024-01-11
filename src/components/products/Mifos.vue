@@ -4,7 +4,7 @@
       <div class="py-16 text-center">
         <div class="mb-16">
           <h1 class="font-semibold text-[4rem] leading-[120%] mb-6">
-            Access real-time financial data
+            Core banking solution.
           </h1>
           <p class="text-[18px] leading-[180%] mb-8">
             Securely access your customers' bank statements, transactions,
