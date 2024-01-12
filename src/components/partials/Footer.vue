@@ -6,9 +6,8 @@
           Start building with Lithobase
         </h1>
         <p class="text-white mb-16 text-[25px]">
-          Access high-quality financial data and start processing
-          <br class="hidden md:inline-block" />
-          payments directly from bank accounts in minutes.
+         Banking Simplified: Your Fintech Solution, Installed, Reliable, and Ready to Roll!
+         
         </p>
         <div class="flex items-center space-x-8 justify-center">
           <button
