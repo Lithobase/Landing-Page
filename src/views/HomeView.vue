@@ -2,9 +2,9 @@
   <div>
     <div class="hero-section">
       <Container>
-        <div class="grid grid-cols-2 space-x-8 py-16">
-          <div class="pt-16">
-            <h1 class="font-semibold text-[5rem] leading-[120%] mb-6">
+        <div class="block lg:grid grid-cols-2 space-x-8 py-16">
+          <div class="py-0 md:pt-16">
+            <h1 class="text-[3rem] sm:text-[1rem] font-semibold md:text-[5rem] leading-[120%] mb-6">
               Reliably access bank accounts
             </h1>
             <p class="text-[25px] leading-[180%]">
@@ -53,7 +53,7 @@
             Trusted by the best teams
           </h5>
 
-          <div class="flex justify-center items-center space-x-16">
+          <div class="flex justify-center flex-wrap items-center space-x-6 md:space-x-16 space-y-5">
             <div>
               <img src="@/assets/images/brands/1.svg" alt="" />
             </div>
@@ -77,7 +77,7 @@
     <div class="py-16">
       <Container>
         <div class="mb-16">
-          <h1 class="font-semibold text-[4rem] leading-[120%] mb-6">
+          <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
             Build for the future <br class="hidden md:inline-block" />
             of digital finance.
           </h1>
@@ -93,7 +93,7 @@
             <span
               class="lab la-palfed text-6xl text-brand-spot inline-block mb-4"
             ></span>
-            <h1 class="text-[3.5rem] font-semibold mb-4">Ppina Box</h1>
+            <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Ppina Box</h1>
             <p class="mb-8 text-[20px] leading-[180%]">
               Securely access financial accounts for statements, transactions,
               and identity
@@ -111,13 +111,13 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 space-x-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div class="bg-[#EBF5FF] text-brand-black p-8 px-10 rounded-lg">
             <div>
               <span
                 class="lab la-mastodon text-6xl text-brand-red inline-block mb-4"
               ></span>
-              <h1 class="text-[3.5rem] font-semibold mb-4">Mifos</h1>
+              <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Mifos</h1>
               <p class="mb-8 text-[20px] leading-[180%]">
                 Securely access financial accounts for statements, transactions,
                 and identity
@@ -149,7 +149,7 @@
               <span
                 class="lab la-quinscape text-6xl text-brand-green inline-block mb-4"
               ></span>
-              <h1 class="text-[3.5rem] font-semibold mb-4">Search</h1>
+              <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Search</h1>
               <p class="mb-8 text-[20px] leading-[180%]">
                 Securely access financial accounts for statements, transactions,
                 and identity
@@ -175,7 +175,7 @@
     <div class="py-16">
       <Container>
         <div class="mb-16">
-          <h1 class="font-semibold text-[4rem] leading-[120%] mb-6">
+          <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
             Businesses building <br class="hidden md:inline-block" />
             with Lithobase
           </h1>
@@ -187,7 +187,7 @@
         </div>
 
         <br />
-        <div class="grid grid-cols-3 space-x-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-8">
           <div class="relative">
             <span
               class="w-[60px] h-[60px] absolute rounded-full bg-brand-primary text-white inline-flex justify-center items-center text-2xl -top-[30px] -left-[20px] shadow-xl border-4 border-white"
@@ -288,7 +288,7 @@
       <Container>
         <div class="py-16">
           <div class="mb-16">
-            <h1 class="font-semibold text-[4rem] leading-[120%] mb-6">
+            <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
               Why market leaders are <br class="hidden md:inline-block" />
               choosing Lithobase
             </h1>
@@ -297,15 +297,15 @@
             </p>
           </div>
 
-          <div class="grid grid-cols-2 space-x-10 mb-16">
-            <div class="bg-light-grey p-10 rounded-xl relative">
+          <div class="flex space-x-6 flex-nowrap md:grid md:grid-cols-2 lg:gap-6 xl:gap-10  mb-16 overflow-x-auto custom-scroll">
+            <div class="bg-light-grey p-10 rounded-xl relative min-w-[320px] md:min-w-auto">
               <span></span>
               <div>
                 <div></div>
                 <p class="mb-2">
                   <span class="las la-quote-left text-4xl"></span>
                 </p>
-                <p class="text-[2.8rem] text-brand-black">
+                <p class="text-[1.5rem] md:text-[2.8rem] text-brand-black">
                   We can trust Mono over 90% of the time which is better than
                   our previous provider. This ease & reliability are our
                   favourite things about Lithobase.
@@ -317,12 +317,12 @@
               <br />
             </div>
 
-            <div class="bg-light-grey p-10 rounded-xl relative">
+            <div class="bg-light-grey p-10 rounded-xl relative min-w-[320px] md:min-w-auto">
               <span></span>
               <div>
                 <div></div>
                 <span class="text-8xl">&#8220;</span>
-                <p class="text-[2.8rem] text-brand-black">
+                <p class="text-[1.5rem] md:text-[2.8rem] text-brand-black">
                   We can trust Mono over 90% of the time which is better than
                   our previous provider. This ease & reliability are our
                   favourite things about Lithobase.
@@ -349,7 +349,7 @@
     <Container>
       <div class="py-16">
         <div class="mb-16 text-brand-black">
-          <h1 class="font-semibold text-[3.5rem] leading-[120%] mb-6">
+          <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
             Start processing payments <br />
             in just 10 minutes
           </h1>
@@ -357,12 +357,12 @@
         </div>
 
         <div class="rounded-xl pb-16">
-          <div class="flex space-x-10 items-start">
-            <div class="w-2/5">
+          <div class="block md:flex md:space-x-10 items-start">
+            <div class="w-full md:w-2/5 mb-10 md:mb-0">
               <span
                 class="las la-shapes text-6xl mb-6 text-brand-primary"
               ></span>
-              <h3 class="font-medium text-[3.2rem] leading-[120%] mb-8">
+              <h3 class="font-medium text-[2rem] md:text-[3.2rem] leading-[120%] mb-8">
                 Powerful APIs and easy-to-use resources
               </h3>
               <p class="text-[18px] text-brand-primary font-semibold">
@@ -372,7 +372,8 @@
                 ></router-link>
               </p>
             </div>
-            <div class="w-3/5">
+
+            <div class="w-full md:w-3/5">
               <img src="@/assets/images/code.png" class="w-[100%]" alt="" />
             </div>
           </div>

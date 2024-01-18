@@ -3,7 +3,7 @@
     <Container>
       <nav class="bg-white py-2">
         <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+          class="w-full px-[24px] md:px-0 md:w-[82vw] mx-auto flex flex-wrap items-center justify-between p-4"
         >
           <router-link
             to="/"
@@ -23,7 +23,7 @@
             class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
           >
             <button
-              class="inline-flex items-center space-x-4 rounded-full px-5 py-2 pr-3 bg-[#f5f5f5]"
+              class="hidden lg:inline-flex items-center space-x-4 rounded-full px-5 py-2 pr-3 bg-[#f5f5f5]"
             >
               <span class="">See a Demo</span>
               <div

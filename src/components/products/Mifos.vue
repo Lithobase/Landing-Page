@@ -3,7 +3,9 @@
     <Container>
       <div class="py-16 text-center">
         <div class="mb-16">
-          <h1 class="font-semibold text-[4rem] leading-[120%] mb-6">
+          <h1
+            class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6"
+          >
             Access real-time financial data
           </h1>
           <p class="text-[18px] leading-[180%] mb-8">
@@ -12,9 +14,11 @@
             identity, and much more.
           </p>
 
-          <div class="flex justify-center items-center space-x-5 mb-10">
+          <div
+            class="flex justify-center items-center space-x-1 md:space-x-5 flex-wrap mb-6"
+          >
             <button
-              class="inline-flex items-center space-x-4 rounded-full px-6 py-4 bg-brand-primary"
+              class="inline-flex items-center space-x-4 rounded-full px-6 py-4 bg-brand-primary mb-3"
             >
               <span class="text-white">Get started with Mifos</span>
               <div
@@ -25,7 +29,7 @@
             </button>
 
             <button
-              class="inline-flex items-center space-x-4 rounded-full px-6 py-4 bg-[#f5f5f5]"
+              class="inline-flex items-center space-x-4 rounded-full px-6 py-4 bg-[#f5f5f5] mb-3"
             >
               <span class="">Contact Sales</span>
               <div
@@ -50,7 +54,9 @@
     <Container>
       <div class="py-16">
         <div class="mb-16">
-          <h1 class="font-semibold text-[3.5rem] leading-[120%] mb-6">
+          <h1
+            class="font-semibold text-[2.3rem] md:text-[3.5rem] leading-[120%] mb-6"
+          >
             Fetching financial data <br class="hidden md:inline-block" />
             after account linking
           </h1>
@@ -61,7 +67,7 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-8 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div class="p-10 rounded-xl bg-white">
             <span class="las la-coins text-5xl mb-3 text-green-400"></span>
             <h2 class="mb-3 text-[25px] font-semibold">Accounts</h2>
@@ -124,7 +130,9 @@
     <Container>
       <div class="py-16">
         <div class="mb-16">
-          <h1 class="font-semibold text-[3.5rem] leading-[120%] mb-2">
+          <h1
+            class="font-semibold text-[2.3rem] md:text-[3.5rem] leading-[120%] mb-2"
+          >
             Manage metrics on the <br class="hidden md:inline-block" />
             Mifos Dashboard
           </h1>
@@ -138,7 +146,9 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-3 gap-x-24 mb-16">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 mb-16"
+        >
           <div class="rounded-xl bg-white">
             <span class="las la-chart-pie text-7xl mb-3 text-blue-500"></span>
             <h2 class="mb-3 text-[30px] font-semibold">View analytics</h2>
@@ -178,13 +188,13 @@
     <Container>
       <div class="py-16">
         <div class="mb-16">
-          <h1 class="font-semibold text-[3.5rem] leading-[120%] mb-2">
+          <h1 class="font-semibold text-[2.3rem] md:text-[3.5rem] leading-[120%] mb-2">
             Start using Mifos <br class="hidden md:inline-block" />
             today
           </h1>
         </div>
 
-        <div class="grid grid-cols-2 gap-x-16 gap-y-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
           <div class="">
             <div class="flex flex-nowrap space-x-4 mb-6 cursor-pointer">
               <div>
@@ -254,5 +264,5 @@
 </template>
 
 <script setup lang="ts">
-import Container from "../partials/Container.vue"
+import Container from "../partials/Container.vue";
 </script>
