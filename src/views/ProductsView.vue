@@ -1,6 +1,6 @@
 <template>
   <Mifos v-if="product == 'mifos'" />
-  <PpinaBox v-else-if="product == 'ppinabox'" />
+  <PpinaBox v-else-if="product == 'PpinaBox'" />
   <SearchApp v-else-if="product == 'search-app'" />
 </template>
 

@@ -60,7 +60,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppinabox</router-link
+                  >PpinaBox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -95,7 +95,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppinabox</router-link
+                  >PpinaBox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -109,7 +109,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppinabox</router-link>
+                <router-link to="/" class="text-white">PpinaBox</router-link>
               </li>
             </ul>
           </div>
@@ -128,7 +128,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppinabox</router-link
+                  >PpinaBox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -142,7 +142,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppinabox</router-link>
+                <router-link to="/" class="text-white">PpinaBox</router-link>
               </li>
             </ul>
           </div>
@@ -161,7 +161,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppinabox</router-link
+                  >PpinaBox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -175,7 +175,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppinabox</router-link>
+                <router-link to="/" class="text-white">PpinaBox</router-link>
               </li>
             </ul>
           </div>

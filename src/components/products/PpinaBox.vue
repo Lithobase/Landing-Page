@@ -9,7 +9,7 @@
             Payments Easily and Securely
           </h1>
           <p class="text-[25px] leading-[180%]">
-            Ppinabox help merchant organizations and e-merchants to receive
+            PpinaBox help merchant organizations and e-merchants to receive
             payments by mobile money, bank cards in a simple and secure way.
           </p>
 
@@ -55,7 +55,7 @@
             class="font-semibold text-[1.7rem] md:text-[3rem] leading-[120%] mb-16 text-center"
           >
             Here's how your customer <br class="hidden md:inline-block" />
-            pays with Ppinabox
+            pays with PpinaBox
           </h1>
         </div>
 
