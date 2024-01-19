@@ -5,11 +5,10 @@
         <div class="block lg:grid grid-cols-2 space-x-8 py-16">
           <div class="py-0 md:pt-16">
             <h1 class="text-[3rem] sm:text-[1rem] font-semibold md:text-[5rem] leading-[120%] mb-6">
-              Reliably access bank accounts
+              You can BANK on us.
             </h1>
             <p class="text-[25px] leading-[180%]">
-              LithoBase helps businesses to access high-quality financial data
-              and direct bank payments.
+              Power Your Fintech Dreams with Our Plug-and-Play Software!
             </p>
 
             <div class="flex items-center space-x-5 my-16">
@@ -50,7 +49,7 @@
       <Container>
         <div class="text-center">
           <h5 class="mb-8 font-medium text-[18px]">
-            Trusted by the best teams
+            Trusted by:
           </h5>
 
           <div class="flex justify-center flex-wrap items-center space-x-6 md:space-x-16 space-y-5">
@@ -78,13 +77,13 @@
       <Container>
         <div class="mb-16">
           <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
-            Build for the future <br class="hidden md:inline-block" />
-            of digital finance.
+            The future of Digital Finance <br class="hidden md:inline-block" />
+            will be built on Lithobase.
           </h1>
           <p class="text-[25px] leading-[180%]">
-            Bring tomorrow's solutions to life, with our
+            Install Today, Thrive Tomorrow – 
             <br class="hidden md:inline-block" />
-            customer-focused solutions, today.
+            Your Complete Banking Solution, Always Reliable, Always Ready!
           </p>
         </div>
 
@@ -93,10 +92,9 @@
             <span
               class="lab la-palfed text-6xl text-brand-spot inline-block mb-4"
             ></span>
-            <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Ppina Box</h1>
+            <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">PpinaBox</h1>
             <p class="mb-8 text-[20px] leading-[180%]">
-              Securely access financial accounts for statements, transactions,
-              and identity
+              Setup Your Deposit System, Mobile Banking, Internet Banking in Days - Install Today, Thrive Tomorrow.
             </p>
             <button
               class="inline-flex items-center space-x-4 rounded-full px-6 py-3 bg-white"
@@ -119,8 +117,7 @@
               ></span>
               <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Mifos</h1>
               <p class="mb-8 text-[20px] leading-[180%]">
-                Securely access financial accounts for statements, transactions,
-                and identity
+                Elevating Everyday Experiences Through Effortless Transactions.
               </p>
               <button
                 class="inline-flex items-center space-x-4 rounded-full px-6 py-3 bg-brand-black"
@@ -151,8 +148,7 @@
               ></span>
               <h1 class="text-[2rem] md:text-[3.5rem] font-semibold mb-4">Search</h1>
               <p class="mb-8 text-[20px] leading-[180%]">
-                Securely access financial accounts for statements, transactions,
-                and identity
+                Seamless Payments, Unleashed by Your Voice – Experience the Future with EchoPayPod!
               </p>
               <button
                 class="inline-flex items-center space-x-4 rounded-full px-6 py-3 bg-white"
@@ -177,12 +173,12 @@
         <div class="mb-16">
           <h1 class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6">
             Businesses building <br class="hidden md:inline-block" />
-            with Lithobase
+            on Lithobase.
           </h1>
           <p class="text-[25px] leading-[180%]">
-            Here are some of the interesting features and
+            Unveiling Achievements: Stories of Businesses Flourishing on the 
             <br class="hidden md:inline-block" />
-            experiences powered by Mono.
+            Lithobase Canvas, Where Potential Meets Infinite Horizons.
           </p>
         </div>
 
@@ -195,13 +191,14 @@
             >
             <div class="p-10 rounded-xl bg-light-grey pt-10">
               <h3 class="text-[25px] text-brand-black mb-4 font-semibold">
-                Payments
+                Microfinance Banks.
               </h3>
               <p class="mb-8 leading-[180%] text-[18px]">
-                Ppina Box makes it easy to send and receive money from Nigeria,
-                Kenya, Ghana, Canada, and the UK. Using DirectPay, Lemonade
-                enables its users to make secure direct cash deposits to be
-                transferred to the country of their choice.
+                Accelerate your microfinance bank's journey from 
+                licensing to operations seamlessly with our 
+                cutting-edge software. Install today, launch 
+                tomorrow – it's quick, safe, and unlocks 
+                immediate banking capabilities for your success.
               </p>
 
               <div class="text-right">
@@ -226,13 +223,16 @@
             >
             <div class="p-8 rounded-xl bg-light-grey pt-10">
               <h3 class="text-[25px] text-brand-black mb-4 font-semibold">
-                Account Management
+                Fintechs and Neobanks.
               </h3>
               <p class="mb-8 leading-[180%] text-[18px]">
-                Ppina Box makes it easy to send and receive money from Nigeria,
-                Kenya, Ghana, Canada, and the UK. Using DirectPay, Lemonade
-                enables its users to make secure direct cash deposits to be
-                transferred to the country of their choice.
+                Elevate your Fintech or Neobank vision effortlessly with 
+                Lithobase. No need to start from scratch – our ready-made 
+                infrastructure takes you from concept to market, 
+                ensuring swift implementation and a competitive edge 
+                in the ever-evolving financial landscape. 
+                Transform your ideas into reality and revolutionize 
+                the market with our proven, scalable solutions.
               </p>
 
               <div class="text-right">
@@ -257,13 +257,16 @@
             >
             <div class="p-8 rounded-xl bg-light-grey pt-10">
               <h3 class="text-[25px] text-brand-black mb-4 font-semibold">
-                Finance Verification
+                Commercial Banks.
               </h3>
               <p class="mb-8 leading-[180%] text-[18px]">
-                Ppina Box makes it easy to send and receive money from Nigeria,
-                Kenya, Ghana, Canada, and the UK. Using DirectPay, Lemonade
-                enables its users to make secure direct cash deposits to be
-                transferred to the country of their choice.
+                Unlock the future of Commercial Banking with 
+                Lithobase. Our omnichannel capacity and robust 
+                security advantages position us as the go-to 
+                solution for your institution. Experience 
+                unparalleled efficiency and trust as you navigate the 
+                evolving landscape of banking, setting new 
+                standards in customer experience and data security.
               </p>
 
               <div class="text-right">

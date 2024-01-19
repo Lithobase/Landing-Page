@@ -8,9 +8,9 @@
           Start building with Lithobase
         </h1>
         <p class="text-white mb-16 text-[18px] md:text-[25px]">
-          Access high-quality financial data and start processing
+          Banking Simplified: Your Fintech Solution, Installed,
           <br class="hidden md:inline-block" />
-          payments directly from bank accounts in minutes.
+          Reliable, and Ready to Roll!
         </p>
         <div
           class="flex items-center flex-wrap space-x-1 md:space-x-8 justify-center"
@@ -60,7 +60,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppina Box</router-link
+                  >Ppinabox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -74,7 +74,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppina Box</router-link>
+                <router-link to="/" class="text-white"></router-link>
               </li>
             </ul>
           </div>
@@ -95,7 +95,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppina Box</router-link
+                  >Ppinabox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -109,7 +109,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppina Box</router-link>
+                <router-link to="/" class="text-white">Ppinabox</router-link>
               </li>
             </ul>
           </div>
@@ -128,7 +128,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppina Box</router-link
+                  >Ppinabox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -142,7 +142,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppina Box</router-link>
+                <router-link to="/" class="text-white">Ppinabox</router-link>
               </li>
             </ul>
           </div>
@@ -161,7 +161,7 @@
               </li>
               <li class="mb-3">
                 <router-link to="/" class="text-white text-[14px]"
-                  >Ppina Box</router-link
+                  >Ppinabox</router-link
                 >
               </li>
               <li class="mb-3">
@@ -175,7 +175,7 @@
                 >
               </li>
               <li class="mb-3">
-                <router-link to="/" class="text-white">Ppina Box</router-link>
+                <router-link to="/" class="text-white">Ppinabox</router-link>
               </li>
             </ul>
           </div>

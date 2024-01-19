@@ -100,19 +100,19 @@
                       <router-link to="/products/ppinabox"
                         href="#"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Ppina Box</router-link
+                        >Payment Processor </router-link
                       >
                     </li>
                     <li>
                       <router-link to="/products/mifos"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Mifos Dashboard</router-link
+                        >Lithobase Core</router-link
                       >
                     </li>
                     <li>
                       <router-link to="/products/search-app"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >QwickSearch</router-link
+                        >Payment Device</router-link
                       >
                     </li>
                   </ul>

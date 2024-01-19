@@ -6,7 +6,7 @@
           <h1
             class="font-semibold text-[2.5rem] md:text-[4rem] leading-[120%] mb-6"
           >
-            Access real-time financial data
+          Core banking solution.
           </h1>
           <p class="text-[18px] leading-[180%] mb-8">
             Securely access your customers' bank statements, transactions,
