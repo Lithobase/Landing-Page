@@ -52,21 +52,21 @@
             Trusted by:
           </h5>
 
-          <div class="flex justify-center flex-wrap items-center space-x-6 md:space-x-16 space-y-5">
+          <div class="flex justify-center flex-wrap items-center space-x-6 md:space-x-16">
             <div>
-              <img src="@/assets/images/brands/1.svg" alt="" />
+              <img src="@/assets/images/brands/1.svg" class="mb-5 lg:mb-2" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/brands/2.svg" alt="" />
+              <img src="@/assets/images/brands/2.svg" class="mb-5 lg:mb-2" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/brands/3.svg" alt="" />
+              <img src="@/assets/images/brands/3.svg" class="mb-5 lg:mb-2" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/brands/1.svg" alt="" />
+              <img src="@/assets/images/brands/1.svg" class="mb-5 lg:mb-2" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/brands/2.svg" alt="" />
+              <img src="@/assets/images/brands/2.svg" class="mb-5 lg:mb-2" alt="" />
             </div>
           </div>
         </div>
