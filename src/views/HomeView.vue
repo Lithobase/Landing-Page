@@ -324,11 +324,16 @@
               <span></span>
               <div>
                 <div></div>
-                <span class="text-8xl">&#8220;</span>
+                <p class="mb-2">
+                  <span class="las la-quote-left text-4xl"></span>
+                </p>
                 <p class="text-[1.5rem] md:text-[2.8rem] text-brand-black">
                   We can trust Mono over 90% of the time which is better than
                   our previous provider. This ease & reliability are our
                   favourite things about Lithobase.
+                </p>
+                <p class="text-right">
+                  <span class="las la-quote-right text-4xl"></span>
                 </p>
               </div>
               <br />
