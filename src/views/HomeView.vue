@@ -300,53 +300,8 @@
             </p>
           </div>
 
-          <div class="flex space-x-6 flex-nowrap md:grid md:grid-cols-2 lg:gap-6 xl:gap-10  mb-16 overflow-x-auto custom-scroll">
-            <div class="bg-light-grey p-10 rounded-xl relative min-w-[320px] md:min-w-auto">
-              <span></span>
-              <div>
-                <div></div>
-                <p class="mb-2">
-                  <span class="las la-quote-left text-4xl"></span>
-                </p>
-                <p class="text-[1.5rem] md:text-[2.8rem] text-brand-black">
-                  We can trust Mono over 90% of the time which is better than
-                  our previous provider. This ease & reliability are our
-                  favourite things about Lithobase.
-                </p>
-                <p class="text-right">
-                  <span class="las la-quote-right text-4xl"></span>
-                </p>
-              </div>
-              <br />
-            </div>
-
-            <div class="bg-light-grey p-10 rounded-xl relative min-w-[320px] md:min-w-auto">
-              <span></span>
-              <div>
-                <div></div>
-                <p class="mb-2">
-                  <span class="las la-quote-left text-4xl"></span>
-                </p>
-                <p class="text-[1.5rem] md:text-[2.8rem] text-brand-black">
-                  We can trust Mono over 90% of the time which is better than
-                  our previous provider. This ease & reliability are our
-                  favourite things about Lithobase.
-                </p>
-                <p class="text-right">
-                  <span class="las la-quote-right text-4xl"></span>
-                </p>
-              </div>
-              <br />
-            </div>
-          </div>
-
-          <div class="mb-16 flex justify-end items-center space-x-6">
-            <button>
-              <span class="las la-long-arrow-alt-left"></span>
-            </button>
-            <button>
-              <span class="las la-long-arrow-alt-right"></span>
-            </button>
+          <div class="mb-10">
+            <Testimonial />
           </div>
         </div>
       </Container>
@@ -393,4 +348,5 @@
 
 <script setup lang="ts">
 import Container from "@/components/partials/Container.vue";
+import Testimonial from "@/components/partials/Testimonial.vue";
 </script>

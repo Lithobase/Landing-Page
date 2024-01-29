@@ -3,7 +3,7 @@
     <Container>
       <nav class="bg-white py-2">
         <div
-          class="w-full px-[24px] md:px-0 md:w-[82vw] mx-auto flex flex-wrap items-center justify-between p-4"
+          class="py-4 flex flex-wrap items-center justify-between"
         >
           <router-link
             to="/"
@@ -19,9 +19,95 @@
               >Lithobase</span
             >
           </router-link>
+
           <div
-            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+            class="flex space-x-3 md:space-x-0 rtl:space-x-reverse"
           >
+            <div class="items-center justify-between w-full flex">
+              <ul
+                class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0"
+                    >Home</a
+                  >
+                </li>
+                <li class="relative">
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    id="dropdownHoverButton"
+                    data-dropdown-toggle="dropdownHover"
+                    data-dropdown-trigger="hover"
+                    >Products
+                    <span class="las la-angle-down"></span>
+                  </a>
+
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdownHover"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+                  >
+                    <ul
+                      class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                      aria-labelledby="dropdownHoverButton"
+                    >
+                      <li>
+                        <router-link
+                          to="/products/PpinaBox"
+                          href="#"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          >Payment Processor
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link
+                          to="/products/mifos"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          >Lithobase Core</router-link
+                        >
+                      </li>
+                      <li>
+                        <router-link
+                          to="/products/search-app"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          >Payment Device</router-link
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <router-link
+                    to="/docs/overview"
+                    href="#"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Developers</router-link
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            
+          </div>
+
+          <div>
             <button
               class="hidden lg:inline-flex items-center space-x-4 rounded-full px-5 py-2 pr-3 bg-[#f5f5f5]"
             >
@@ -36,11 +122,7 @@
             </button>
 
             <button
-              data-collapse-toggle="navbar-sticky"
-              type="button"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-sticky"
-              aria-expanded="false"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             >
               <span class="sr-only">Open main menu</span>
               <svg
@@ -59,87 +141,6 @@
                 />
               </svg>
             </button>
-          </div>
-          <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-            id="navbar-sticky"
-          >
-            <ul
-              class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-            >
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                  aria-current="page"
-                  >Home</a
-                >
-              </li>
-              <li class="relative">
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  id="dropdownHoverButton"
-                  data-dropdown-toggle="dropdownHover"
-                  data-dropdown-trigger="hover"
-                  >Products
-                  <span class="las la-angle-down"></span>
-                  </a
-                >
-
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdownHover"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-                >
-                  <ul
-                    class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                    aria-labelledby="dropdownHoverButton"
-                  >
-                    <li>
-                      <router-link to="/products/PpinaBox"
-                        href="#"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Payment Processor </router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/products/mifos"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Lithobase Core</router-link
-                      >
-                    </li>
-                    <li>
-                      <router-link to="/products/search-app"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Payment Device</router-link
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <router-link to="/docs/overview"
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >Developers</router-link
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >Contact</a
-                >
-              </li>
-            </ul>
           </div>
         </div>
       </nav>
