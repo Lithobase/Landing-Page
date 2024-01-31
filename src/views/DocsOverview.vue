@@ -7,7 +7,9 @@
             class="inline-block mb-2 bg-[#F5F5F5] p-2 px-4 font-semibold rounded-lg"
             >Lithobase for developers</small
           >
-          <h1 class="font-semibold text-[2.5rem] md:text-[3.6rem] leading-[120%] mb-6">
+          <h1
+            class="font-semibold text-[2.5rem] md:text-[3.6rem] leading-[120%] mb-6"
+          >
             A complete API suite to build <br class="hidden md:inline-block" />
             amazing payments experiences
           </h1>
@@ -19,7 +21,7 @@
 
           <div class="flex justify-center items-center space-x-5 mb-10">
             <a
-              href="https://main--comfy-marigold-7fefae.netlify.app/"
+              :href="docsUrl"
               target="_blank"
               class="inline-flex items-center space-x-4 rounded-full px-6 pr-2 py-2 bg-brand-primary"
             >
@@ -40,7 +42,9 @@
     <Container>
       <div class="py-16">
         <div class="mb-16">
-          <h1 class="font-semibold text-[2rem] md:text-[3.2rem] leading-[120%] mb-6">
+          <h1
+            class="font-semibold text-[2rem] md:text-[3.2rem] leading-[120%] mb-6"
+          >
             Build awesome products
           </h1>
           <p class="text-[22px] text-gray-500 leading-[180%]">
@@ -64,7 +68,7 @@
                 class="text-brand-primary las la-chevron-circle-right text-2xl mt-2"
               ></span>
               <a
-                href="https://main--comfy-marigold-7fefae.netlify.app/"
+              :href="docsUrl"
                 class="font-semibold text-brand-primary inline-block mt-1"
                 >Learn more</a
               >
@@ -85,7 +89,7 @@
                 class="text-brand-primary las la-chevron-circle-right text-2xl mt-2"
               ></span>
               <a
-                href="https://main--comfy-marigold-7fefae.netlify.app/"
+              :href="docsUrl"
                 class="font-semibold text-brand-primary inline-block mt-1"
                 >Learn more</a
               >
@@ -106,7 +110,7 @@
                 class="text-brand-primary las la-chevron-circle-right text-2xl mt-2"
               ></span>
               <a
-                href="https://main--comfy-marigold-7fefae.netlify.app/"
+              :href="docsUrl"
                 class="font-semibold text-brand-primary inline-block mt-1"
                 >Learn more</a
               >
@@ -127,7 +131,7 @@
                 class="text-brand-primary las la-chevron-circle-right text-2xl mt-2"
               ></span>
               <a
-                href="https://main--comfy-marigold-7fefae.netlify.app/"
+              :href="docsUrl"
                 class="font-semibold text-brand-primary inline-block mt-1"
                 >Learn more</a
               >
@@ -140,5 +144,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
 import Container from "@/components/partials/Container.vue";
+
+const docsUrl = ref("https://lithobase.gitbook.io/lithobase/");
 </script>
